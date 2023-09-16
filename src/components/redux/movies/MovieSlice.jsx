@@ -44,7 +44,7 @@ const MovieSlice = createSlice({
             return  {...state,movies: payload}
         },
         [fetchAsyncMovies.rejected]:()=>{
-            Alert('Error while fetching data');
+            alert('Error while fetching data');
         },
         [fetchShowsMoviesDetails.fulfilled]:(state,{payload})=>{
             return {...state,details:payload}
