@@ -1,0 +1,38 @@
+
+.item{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    height: 400px;
+}
+
+h1{
+    font: 100;
+    text-align: start;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+h3{
+    font: 50;
+    text-align: start;
+    text-decoration: none;
+    font-size: small;
+    color: white;
+}
+
+
+img:hover{
+    transform: Scale(1.1);
+    box-shadow: 1px 1px 2px 2px black;
+}
+
+img{
+    height: 300px;
+    box-shadow: .4px .4px 1px 1px black;
+    margin-bottom:20px ;
+    overflow: scroll;
+}

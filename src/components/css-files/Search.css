@@ -1,0 +1,35 @@
+.search{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: larger;
+    color:white;
+    font-weight:300;
+}
+
+button {
+    border: 1px solid black ;
+    padding: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 40px;
+
+}
+
+button:hover{
+    transform: scale(1);
+}
+
+input{
+    outline: 0px;
+    height: 25px;
+    margin-left: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding:0px 10px 0px 10px;
+    
+}
+

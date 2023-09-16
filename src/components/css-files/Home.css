@@ -1,0 +1,10 @@
+.home-div{
+    background: rgba(7, 3, 3, 0.784);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    padding: 100px;
+
+}

@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color:rgb(14, 3, 3);
+    border-bottom:1px solid white;
+    box-shadow: 10px 10px white;
+    color: white;
+}
+
+
+.reel{
+    height: 50px;
+    width: 50px;
+}
+
+.reel:hover{
+    /* transform: rotate(75deg); */
+    transform: rotate(10deg);
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+#heading-nav{
+    position: relative;
+    top: 8px;
+    left: 8px;
+    font-size: xx-large;
+}
